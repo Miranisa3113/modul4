@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KONSTRUKSI PERANGKAT LUNAK\\modul4_103082400001\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24CFCB70-3034-452B-B6A7-CCAE24063534}|modul4_103082400001\\modul4_103082400001.csproj|d:\\konstruksi perangkat lunak\\modul4_103082400001\\modul4_103082400001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24CFCB70-3034-452B-B6A7-CCAE24063534}|modul4_103082400001\\modul4_103082400001.csproj|solutionrelative:modul4_103082400001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\KONSTRUKSI PERANGKAT LUNAK\\modul4_103082400001\\modul4_103082400001\\Program.cs",
+              "RelativeDocumentMoniker": "modul4_103082400001\\Program.cs",
+              "ToolTip": "D:\\KONSTRUKSI PERANGKAT LUNAK\\modul4_103082400001\\modul4_103082400001\\Program.cs",
+              "RelativeToolTip": "modul4_103082400001\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T11:54:28.025Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
