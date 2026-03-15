@@ -32,6 +32,42 @@ class KodeBuah
     }
 }
 
+
+class PosisiKarakterGame
+{
+    enum State
+    {
+        Berdiri,
+        Tengkurap
+    }
+
+    private State currentState;
+
+    public PosisiKarakterGame()
+    {
+        currentState = State.Berdiri;
+        Console.WriteLine("posisi standby");
+    }
+
+    public void TombolS()
+    {
+        if (currentState == State.Berdiri)
+        {
+            currentState = State.Tengkurap;
+            Console.WriteLine("posisi istirahat");
+        }
+    }
+
+    public void TombolW()
+    {
+        if (currentState == State.Tengkurap)
+        {
+            currentState = State.Berdiri;
+            Console.WriteLine("posisi standby");
+        }
+    }
+}
+
 class Program
 {
     static void Main(string[] args)
@@ -42,6 +78,11 @@ class Program
         {
             Console.WriteLine("Kode Buah " + item.Key + " : " + item.Value);
         }
+
+        PosisiKarakterGame karakter = new PosisiKarakterGame();
+
+        karakter.TombolS();
+        karakter.TombolW();
 
         Console.ReadLine();
     }
